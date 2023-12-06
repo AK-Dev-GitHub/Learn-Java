@@ -4,12 +4,15 @@ class Human {
   public String name;
   public int age;
 
+  // コンストラクタ
   Human(String name, int age) {
-    this.name = name;
+    this.name = kan;
     this.age = age;
   }
 
+  // メソッド(コントラクタの実態)
   public String getName() {
-    String name = "kaneda";
+    return name;
   }
 }
+
